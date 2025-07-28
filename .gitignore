@@ -29,4 +29,28 @@ Thumbs.db
 *.h5
 *.zip
 *.tar.gzw
+# Ignore DB
 week_1_basics_n_setup/2_docker_sql/ny_taxi_postgres_data/
+# Ignore terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+crash.log
+crash.*.log
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+.terraformrc
+terraform.rc
+# Ignore sensitive key files
+week_1_basics_n_setup/1_terraform_gcp/keys
+**/keys/
+*.pem
+*.key
+*.json
